@@ -1,2 +1,3 @@
-# Curso_Ruby
-Curso Ruby
+# Curso Ruby
+
+palindromo.rb => Meu primeiro código em Ruby!
