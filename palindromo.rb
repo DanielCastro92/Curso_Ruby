@@ -1,6 +1,6 @@
 puts "-" * 10 + " Exercício 01 - Palíndromo " + "-"*10
 print "Digite uma palavra: "
-palavra = gets.chomp
+palavra = gets.chomp.downcase
 
 tabela = palavra.chars
 tamanho = tabela.length
@@ -22,7 +22,7 @@ while contador >= 0 && contador <= tamanho - 1
 end
 
 if validador == 1 
-    puts "A palavra #{palavra} é palíndroma"
+    puts "A palavra #{palavra} é palíndroma!"
 else
-    puts "A palavra #{palavra} não é palíndroma"
+    puts "A palavra #{palavra} não é palíndroma!"
 end
